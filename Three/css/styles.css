@@ -1,0 +1,51 @@
+html,body {
+	height: 100%;
+	color:  blue; 
+	padding: 50px;
+}
+
+body {
+	background-color: grey;
+}
+
+p {
+	font-size: 30px;
+}
+
+p.orange {
+	color: orange;
+}
+
+.orange {
+	color: blue !important;
+}
+
+p.blue {
+	color: aquamarine;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+div {
+	border: 1px solid black;
+}
+
+span {
+	border: 1px solid red;
+}
+
+.list {
+	background-color: pink;
+	border: 1px solid black;
+}
+
+.list-specialny {
+	background-color: purple;
+}
+
+.list-specialny li {
+	display: inline-block;
+}
+
