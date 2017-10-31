@@ -1,0 +1,21 @@
+html, body {
+	height: 100%;
+}
+
+.text-align-right {
+	text-align: right;
+	color: red;
+	font-size: 12px;
+}
+
+.text-align-center {
+	text-align: center;
+	color: blue;
+	font-size: 14px;
+}
+
+.text-align-justify {
+	text-align: justify;
+	color: green;
+	font-size: 16px;
+}
