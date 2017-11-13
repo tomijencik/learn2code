@@ -1,0 +1,65 @@
+html, body {
+	height: 100%;
+}
+
+body {
+	word-wrap: break-word;
+	word-break: break-word;
+	background-color: black;
+}
+
+a {
+	user-select: none;
+	text-decoration: none;
+}
+
+*,
+*:before,
+*:after {
+	box-sizing: border-box;
+}
+
+.main-content {
+	border: 3px solid white;
+	margin-left: 250px;
+	margin-right: 200px;
+	margin-top: 100px;
+	margin-bottom: 70px;
+}
+
+.title-nadpis {
+	display: block;
+	text-align: center;
+	color: white;
+	padding: 20px 20px;
+	border: 1px solid white;
+}
+
+.linka {
+	display: inline-block;
+	color: white;
+	text-decoration: none;
+	padding: 20px 20px;
+	font-size: 25px;
+}
+
+.linka:hover {
+	background-color: white;
+	color: black;
+	text-decoration: underline;
+}
+
+.list-flex {
+	text-decoration: none;
+	display: flex;
+	padding: 30px;
+	font-size: 25px;
+}
+
+.list-flex-li-a {
+	color: white;
+}
+
+.list-flex-li-p {
+	color: yellow;
+}
